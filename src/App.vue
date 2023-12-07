@@ -4,7 +4,7 @@ import Menu from "./views/menu/Menu.vue";
 </script>
 
 <template>
-  <div class="grid grid-cols-6 h-screen">
+  <div class="flex flex-col md:flex-row w-full md:w-scren h-screen">
     <Menu></Menu>
     <router-view v-slot="{ Component }">
       <transition>

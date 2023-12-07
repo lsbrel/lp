@@ -6,7 +6,7 @@ export default {
 };
 </script>
 <template>
-  <div class="col-span-6 md:col-span-5 bg-zinc-100">
+  <div class="w-full md:w-11/12 h-full" style="background-color: #fafafa">
     <div class="r">
       <div class="col-12">dashboard</div>
     </div>
