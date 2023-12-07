@@ -11,7 +11,7 @@ export default {
 </script>
 <template>
   <div
-    class="w-full md:w-2/12 shadow-xl"
+    class="w-full md:w-1/12 shadow-xl"
     style="z-index: 1000 !important; background-color: #ffffff"
   >
     <div class="flex flex-row md:flex-col sm:h-1/4 md:h-full w-full shadow-lg">
