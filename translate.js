@@ -1,13 +1,21 @@
 export default class Translate {
-  static async to(key) {
+  static to(key) {
+    var response;
     try {
-      const response = await fetch("src/locales/pt.json");
-      const data = await response.json();
-      console.log(data[key].toString());
-      return data[key] || "vazio";
-    } catch (error) {
-      console.error("Error fetching or parsing JSON:", error);
-      return "vazio";
-    }
+      const data = fetch("src/locales/pt.json")
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          response.text = data[key];
+          return response.text;
+          // console.log(response.text);
+        });
+      (async () => {
+        response.text = await data;
+      })();
+    } catch {}
+    console.log(response);
+    return response;
   }
 }
