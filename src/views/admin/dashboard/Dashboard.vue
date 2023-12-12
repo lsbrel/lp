@@ -1,12 +1,15 @@
 <script>
+import { useAppStore } from "../../../stores";
+
 export default {
   data() {
-    return {};
+    return {
+      stores: useAppStore(),
+    };
   },
   methods: {
     changeLang() {
-      localStorage.setItem("lang", "pt");
-      console.log(localStorage.getItem("lang"));
+      this.stores.setLang("es");
     },
   },
 };

@@ -1,11 +1,12 @@
+import { useAppStore } from "./stores";
 import en from "./locales/en.json";
 import pt from "./locales/pt.json";
 import es from "./locales/es.json";
 
 export default class Translate {
   static to(key) {
-    const lang = localStorage.getItem("lang"); // esse valor precisa vir de localstorage
-    console.log(lang);
+    const stores = useAppStore();
+    const lang = stores.getLang; // esse valor precisa vir de localstorage
     try {
       if (lang == "pt") {
         return pt[key];
