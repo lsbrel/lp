@@ -9,11 +9,11 @@ export const useAppStore = defineStore("app", {
   actions: {
     setLang(newLang) {
       this.lang = newLang;
-      LocalStorageController.setLang(newLang);
+      LocalStorageController.storeLang(newLang);
     },
     setTheme() {
       this.isDarkMode = !this.isDarkMode;
-      LocalStorageController.setTheme(this.isDarkMode);
+      LocalStorageController.storeTheme(this.isDarkMode);
     },
   },
   getters: {
