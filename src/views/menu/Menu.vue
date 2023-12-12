@@ -21,11 +21,11 @@ export default {
       <div
         class="flex flex-row md:flex-col items-center md:h-5/7 lg:h-5/7 gap-2"
       >
-        <MenuItem label="vendedores" route="/vendedores" />
-        <MenuItem label="loja" route="/loja" />
-        <MenuItem label="eventos" route="/eventos" />
-        <MenuItem label="rotas" route="/rotas" />
-        <MenuItem label="cidades" route="/cidades" />
+        <MenuItem label="salesmans" route="/salesman" />
+        <MenuItem label="stores" route="/stores" />
+        <MenuItem label="events" route="/events" />
+        <MenuItem label="routes" route="/routes" />
+        <MenuItem label="cities" route="/cities" />
       </div>
     </div>
   </div>

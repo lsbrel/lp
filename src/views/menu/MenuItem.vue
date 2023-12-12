@@ -12,7 +12,7 @@ export default {
 <template>
   <div class="p-4 capitalize text-center">
     <RouterLink :to="route">
-      <span>{{ this.label }}</span>
+      <span>{{ $t(label) }}</span>
     </RouterLink>
   </div>
 </template>
