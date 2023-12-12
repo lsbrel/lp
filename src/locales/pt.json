@@ -1,4 +1,5 @@
 {
-    "name": "Nome",
-    "register": "Cadastrar"
+    "name": "nome",
+    "register": "cadastrar",
+    "confirm": "confirmar"
 }
