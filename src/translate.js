@@ -1,5 +1,6 @@
 import en from "./locales/en.json";
 import pt from "./locales/pt.json";
+import es from "./locales/es.json";
 
 export default class Translate {
   static to(key) {
@@ -8,6 +9,8 @@ export default class Translate {
     try {
       if (lang == "pt") {
         return pt[key];
+      } else if (lang == "es") {
+        return es[key];
       } else {
         return en[key];
       }
