@@ -3,7 +3,16 @@ import pt from "./locales/pt.json";
 
 export default class Translate {
   static to(key) {
-    const lang = "pt"; // colocal o lang no local storage
-    return eval(lang)[key]; // EVAL precisa ser trocado é perigoso
+    const lang = "pt"; // esse valor precisa vir de localstorage
+
+    try {
+      if (lang == "pt") {
+        return pt[key];
+      } else {
+        return en[key];
+      }
+    } catch {
+      console.error("Erro ao buscar tradução");
+    }
   }
 }
