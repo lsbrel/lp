@@ -1,7 +1,6 @@
 {
     "credentialsError": "credenciales con error",
     "credentialsInvalid": "credenciales inválidas",
-
     "dataRetrieveSuccess": "datos recuperados con éxito",
     "dataCreateFailed": "error al crear datos",
     "dataCreateSuccess": "datos creados",
@@ -10,7 +9,6 @@
     "dataNotFound": "datos no encontrados",
     "dataDeleteFailed": "error al eliminar datos",
     "dataDeleteSuccess": "datos eliminados con éxito",
-
     "linkEventCityFailed": "error al vincular evento con ciudad",
     "linkEventTypeFailed": "error al vincular evento con tipo",
     "linkRouteCityFailed": "error al vincular ruta con ciudad",
@@ -20,10 +18,14 @@
     "loginSuccess": "inicio de sesión exitoso",
     "logoutFailed": "error al cerrar sesión",
     "logoutSuccess": "el usuario ha cerrado sesión",
-
     "userTypeError": "tipo de usuario no reconocido",
     "userNotLogged": "el usuario no ha iniciado sesión",
-
     "tokenNotInformed": "token no informado",
-    "tokenInvalid": "token no válido"
+    "tokenInvalid": "token no válido",
+
+    "salesmans": "vendedores",
+    "stores": "historias",
+    "events": "eventos",
+    "routes": "rutas",
+    "cities": "ciudades"
 }

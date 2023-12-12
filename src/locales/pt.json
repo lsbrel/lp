@@ -1,7 +1,6 @@
 {
     "credentialsError": "credenciais com erro",
     "credentialsInvalid": "credenciais inválidas",
-
     "dataRetrieveSuccess": "dados recuperados com sucesso",
     "dataCreateFailed": "não foi possível criar dados",
     "dataCreateSuccess": "dados foram criados com sucesso",
@@ -10,7 +9,6 @@
     "dataNotFound": "dados não foram encontrados",
     "dataDeleteFailed": "dados não puderam ser deletados",
     "dataDeleteSuccess": "dados foram deletados com sucesso",
-
     "linkEventCityFailed": "não foi possível vincular evento com cidade",
     "linkEventTypeFailed": "não foi possível vincular evento com um tipo de evento",
     "linkRouteCityFailed": "não foi possível vincular rota com cidade",
@@ -20,10 +18,15 @@
     "loginSuccess": "login realizado com sucesso",
     "logoutFailed": "logout falhou",
     "logoutSuccess": "logout realizado com sucesso",
-
     "userTypeError": "tipo de usuario não foi encontrado",
     "userNotLogged": "usuario não pode ser deslogado",
-
     "tokenNotInformed": "token não foi informado",
-    "tokenInvalid": "token inválido"
+    "tokenInvalid": "token inválido",
+
+    "salesmans": "vendedores",
+    "stores": "lojas",
+    "events": "eventos",
+    "routes": "rotas",
+    "cities": "cidades"
+
 }
