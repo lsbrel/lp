@@ -1,5 +1,29 @@
 {
-    "name": "nome",
-    "register": "cadastrar",
-    "confirm": "confirmar"
+    "credentialsError": "credenciais com erro",
+    "credentialsInvalid": "credenciais inválidas",
+
+    "dataRetrieveSuccess": "dados recuperados com sucesso",
+    "dataCreateFailed": "não foi possível criar dados",
+    "dataCreateSuccess": "dados foram criados com sucesso",
+    "dataUpdateFailed": "dados não puderam ser atualizados",
+    "dataUpdateSuccess": "dados foram atualizados com sucesso",
+    "dataNotFound": "dados não foram encontrados",
+    "dataDeleteFailed": "dados não puderam ser deletados",
+    "dataDeleteSuccess": "dados foram deletados com sucesso",
+
+    "linkEventCityFailed": "não foi possível vincular evento com cidade",
+    "linkEventTypeFailed": "não foi possível vincular evento com um tipo de evento",
+    "linkRouteCityFailed": "não foi possível vincular rota com cidade",
+    "linkRouteSalesmanFailed": "não foi possível vincular rota com vendedor",
+    "linkRouteStatusFailed": "não foi possível vincular rota com status",
+    "loginFailed": "login falhou",
+    "loginSuccess": "login realizado com sucesso",
+    "logoutFailed": "logout falhou",
+    "logoutSuccess": "logout realizado com sucesso",
+
+    "userTypeError": "tipo de usuario não foi encontrado",
+    "userNotLogged": "usuario não pode ser deslogado",
+
+    "tokenNotInformed": "token não foi informado",
+    "tokenInvalid": "token inválido"
 }

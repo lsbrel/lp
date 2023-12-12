@@ -3,8 +3,8 @@ import pt from "./locales/pt.json";
 
 export default class Translate {
   static to(key) {
-    const lang = "pt"; // esse valor precisa vir de localstorage
-
+    const lang = localStorage.getItem("lang"); // esse valor precisa vir de localstorage
+    console.log(lang);
     try {
       if (lang == "pt") {
         return pt[key];

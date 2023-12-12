@@ -1,4 +1,29 @@
 {
-    "name": "Name",
-    "register": "Register"
+    "credentialsError": "error on credentials",
+    "credentialsInvalid": "invalid credentials",
+
+    "dataRetrieveSuccess": "data retrieve with success",
+    "dataCreateFailed": "data created dataCreateFailed",
+    "dataCreateSuccess": "data created",
+    "dataUpdateFailed": "data update failed",
+    "dataUpdateSuccess": "data update success",
+    "dataNotFound": "data not found",
+    "dataDeleteFailed": "data delete failed",
+    "dataDeleteSuccess": "data delete success",
+
+    "linkEventCityFailed": "link event with city has failed",
+    "linkEventTypeFailed": "link event with type has failed",
+    "linkRouteCityFailed": "link route with city has failed",
+    "linkRouteSalesmanFailed": "link route with salesman has failed",
+    "linkRouteStatusFailed": "link route with status has failed",
+    "loginFailed": "login has failed",
+    "loginSuccess": "login success",
+    "logoutFailed": "logout has failed",
+    "logoutSuccess": "user has been logged-out",
+
+    "userTypeError": "user type won't recognized",
+    "userNotLogged": "user is not logged",
+
+    "tokenNotInformed": "token not informed",
+    "tokenInvalid": "token is invalid"
 }
