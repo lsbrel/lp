@@ -25,8 +25,14 @@ export const useAppStore = defineStore("app", {
     },
   },
   getters: {
-    getLang: () => this.lang,
-    getThemeMode: () => this.isDarkMode,
-    getUserData: () => this.user,
+    getLang() {
+      return this.lang;
+    },
+    getThemeMode() {
+      return this.isDarkMode;
+    },
+    getUserData() {
+      return this.user;
+    },
   },
 });
