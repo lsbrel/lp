@@ -15,8 +15,8 @@ export default {
 };
 </script>
 <template>
-  <div class="w-full md:w-11/12 h-full bg-kwhite p-5">
-    <div class="r">
+  <div class="w-full md:w-10/12 xl:w-11/12 h-full bg-kwhite p-5">
+    <div class="">
       <div class="col-12">{{ $t("credentialsError") }}</div>
       <button
         @click="changeLang"
