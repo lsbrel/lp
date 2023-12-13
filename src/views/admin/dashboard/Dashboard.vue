@@ -9,18 +9,18 @@ export default {
   },
   methods: {
     changeLang() {
-      this.stores.setLang("es");
+      this.stores.setLang("en");
     },
   },
 };
 </script>
 <template>
-  <div class="w-full md:w-11/12 h-full" style="background-color: #fafafa">
+  <div class="w-full md:w-11/12 h-full bg-kwhite p-5">
     <div class="r">
       <div class="col-12">{{ $t("credentialsError") }}</div>
       <button
         @click="changeLang"
-        class="bg-blue-400 shadow-lg p-2 rounded hover:bg-blue-300"
+        class="bg-success text-white shadow-lg p-2 rounded hover:bg-green-300"
       >
         Mudar linguagem
       </button>

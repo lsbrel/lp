@@ -10,7 +10,7 @@ export default {
 };
 </script>
 <template>
-  <div class="p-4 capitalize text-center">
+  <div class="p-4 capitalize text-center hover:text-kgray w-full">
     <RouterLink :to="route">
       <span>{{ $t(label) }}</span>
     </RouterLink>

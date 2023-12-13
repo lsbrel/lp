@@ -27,5 +27,6 @@
     "stores": "historias",
     "events": "eventos",
     "routes": "rutas",
-    "cities": "ciudades"
+    "cities": "ciudades",
+    "exit": "salir"
 }

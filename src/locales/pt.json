@@ -27,6 +27,7 @@
     "stores": "lojas",
     "events": "eventos",
     "routes": "rotas",
-    "cities": "cidades"
+    "cities": "cidades",
+    "exit": "sair"
 
 }

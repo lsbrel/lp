@@ -27,5 +27,6 @@
     "stores": "stores",
     "events": "events",
     "routes": "routes",
-    "cities": "cities"
+    "cities": "cities",
+    "exit": "exit"
 }
