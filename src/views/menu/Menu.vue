@@ -24,14 +24,37 @@ export default {
       <div
         class="flex flex-row md:flex-col items-center md:h-5/7 lg:h-5/7 gap-1"
       >
-        <MenuItem icon="https://e7.pngegg.com/pngimages/726/636/png-clipart-computer-icons-icon-design-share-icon-shape-icon-shapes-artwork.png" label="salesmans" route="/salesman" />
-        <MenuItem label="stores" route="/stores" />
-        <MenuItem label="events" route="/events" />
-        <MenuItem label="routes" route="/routes" />
-        <MenuItem label="cities" route="/cities" />
+        <MenuItem
+          icon="https://as2.ftcdn.net/v2/jpg/02/70/02/13/1000_F_270021346_5wD4YOd40LHVPEDf28OdDeDcMExRPSML.jpg"
+          label="salesmans"
+          route="/salesman"
+        />
+        <MenuItem
+          icon="https://as2.ftcdn.net/v2/jpg/02/70/02/13/1000_F_270021346_5wD4YOd40LHVPEDf28OdDeDcMExRPSML.jpg"
+          label="stores"
+          route="/stores"
+        />
+        <MenuItem
+          icon="https://as2.ftcdn.net/v2/jpg/02/70/02/13/1000_F_270021346_5wD4YOd40LHVPEDf28OdDeDcMExRPSML.jpg"
+          label="events"
+          route="/events"
+        />
+        <MenuItem
+          icon="https://as2.ftcdn.net/v2/jpg/02/70/02/13/1000_F_270021346_5wD4YOd40LHVPEDf28OdDeDcMExRPSML.jpg"
+          label="routes"
+          route="/routes"
+        />
+        <MenuItem
+          icon="https://as2.ftcdn.net/v2/jpg/02/70/02/13/1000_F_270021346_5wD4YOd40LHVPEDf28OdDeDcMExRPSML.jpg"
+          label="cities"
+          route="/cities"
+        />
       </div>
       <div class="flex flex-col w-full h-full justify-end">
-        <MenuFooterButton label="exit" />
+        <MenuFooterButton
+          icon="https://as2.ftcdn.net/v2/jpg/02/70/02/13/1000_F_270021346_5wD4YOd40LHVPEDf28OdDeDcMExRPSML.jpg"
+          label="exit"
+        />
       </div>
     </div>
   </div>
