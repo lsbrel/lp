@@ -28,6 +28,9 @@
     "events": "eventos",
     "routes": "rotas",
     "cities": "cidades",
-    "exit": "sair"
+    "exit": "sair",
+    "english": "inglês",
+    "spanish": "espanhol",
+    "portuguese": "português"
 
 }

@@ -28,5 +28,8 @@
     "events": "eventos",
     "routes": "rutas",
     "cities": "ciudades",
-    "exit": "salir"
+    "exit": "salir",
+    "english": "inglés",
+    "spanish": "español",
+    "portuguese": "portugués"
 }

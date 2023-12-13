@@ -8,8 +8,8 @@ export default {
     };
   },
   methods: {
-    changeLang() {
-      this.stores.setLang("en");
+    changeLang(lang) {
+      this.stores.setLang(lang);
     },
   },
 };
@@ -19,10 +19,22 @@ export default {
     <div class="">
       <div class="col-12">{{ $t("credentialsError") }}</div>
       <button
-        @click="changeLang"
-        class="bg-success text-white shadow-lg p-2 rounded hover:bg-green-300"
+        @click="changeLang('pt')"
+        class="bg-green-600 text-white shadow-lg p-2 rounded hover:bg-green-300"
       >
-        Mudar linguagem
+        {{ $t("portuguese") }}
+      </button>
+      <button
+        @click="changeLang('en')"
+        class="bg-red-600 text-white shadow-lg p-2 rounded hover:bg-green-300"
+      >
+        {{ $t("english") }}
+      </button>
+      <button
+        @click="changeLang('es')"
+        class="bg-yellow-500 text-white shadow-lg p-2 rounded hover:bg-green-300"
+      >
+        {{ $t("spanish") }}
       </button>
     </div>
   </div>
