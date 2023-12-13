@@ -19,7 +19,7 @@ export default {
   >
     <RouterLink to="/">
       <img :src="sourceImage" />
-      <hr class="w-3/4 mx-auto mt-4" />
+      <hr class="w-3/4 mx-auto mt-4 bg-primary text-primary" />
     </RouterLink>
   </div>
 </template>

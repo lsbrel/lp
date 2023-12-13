@@ -31,7 +31,7 @@ export default {
 </script>
 <template>
   <div
-    class="w-full md:w-2/12 2xl:w-1/12 shadow-3xl bg-primary-light text-kwhite"
+    class="w-full md:w-2/12 2xl:w-1/12 shadow-3xl bg-kwhite"
     style="z-index: 1000 !important"
   >
     <div class="flex flex-row md:flex-col sm:h-1/4 md:h-full w-full shadow-2xl">
