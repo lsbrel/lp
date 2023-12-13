@@ -22,9 +22,9 @@ export default {
         />
       </div>
       <div
-        class="flex flex-row md:flex-col items-center md:h-5/7 lg:h-5/7 gap-2"
+        class="flex flex-row md:flex-col items-center md:h-5/7 lg:h-5/7 gap-1"
       >
-        <MenuItem label="salesmans" route="/salesman" />
+        <MenuItem icon="https://e7.pngegg.com/pngimages/726/636/png-clipart-computer-icons-icon-design-share-icon-shape-icon-shapes-artwork.png" label="salesmans" route="/salesman" />
         <MenuItem label="stores" route="/stores" />
         <MenuItem label="events" route="/events" />
         <MenuItem label="routes" route="/routes" />

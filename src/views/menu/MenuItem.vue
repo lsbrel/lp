@@ -3,6 +3,7 @@ import { RouterLink } from "vue-router";
 
 export default {
   props: {
+    icon: String,
     label: String,
     route: String,
   },
@@ -10,7 +11,10 @@ export default {
 };
 </script>
 <template>
-  <div class="p-4 capitalize text-center hover:text-kgray w-full">
+  <div
+    class="flex flex-row gap-2 p-4 capitalize text-center hover:text-kgray w-full"
+  >
+    <img :src="icon" width="32" height="32" />
     <RouterLink :to="route">
       <span>{{ $t(label) }}</span>
     </RouterLink>
