@@ -6,7 +6,7 @@ export default {
 };
 </script>
 <template>
-  <div class="w-full">
-    <h1 class="text-center">{{ label }}</h1>
+  <div class="p-4 mt-4">
+    <h1>{{ $t(label) }}</h1>
   </div>
 </template>

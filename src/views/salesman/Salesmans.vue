@@ -1,10 +1,13 @@
 <script>
+import HeaderTitle from "@/components/HeaderTitle.vue";
+
 export default {
   data() {
     return {};
   },
+  components: { HeaderTitle },
 };
 </script>
 <template>
-  {{ $t("salesmans") }}
+  <HeaderTitle label="salesmans" />
 </template>
