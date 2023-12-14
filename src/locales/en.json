@@ -29,6 +29,7 @@
     "routes": "routes",
     "cities": "cities",
     "exit": "exit",
+    "dashboard": "dashboard",
     "english": "english",
     "spanish": "spanish",
     "portuguese": "portuguese"
