@@ -3,12 +3,12 @@ import MenuItem from "./MenuItem.vue";
 import MenuTitle from "./MenuTitle.vue";
 import MenuFooterButton from "./MenuFooterButton.vue";
 import Logo from "@/icons/logo_sem_fundo.png";
-import Exit from "@/icons/menu/exit.svg"
-import Salesmans from "@/icons/menu/salesman.svg"
-import Events from "@/icons/menu/events.svg"
-import Cities from "@/icons/menu/cities.svg"
-import Routes from "@/icons/menu/routes.svg"
-import Stores from "@/icons/menu/stores.svg"
+import Exit from "@/icons/menu/exit.svg";
+import Salesmans from "@/icons/menu/salesman.svg";
+import Events from "@/icons/menu/events.svg";
+import Cities from "@/icons/menu/cities.svg";
+import Routes from "@/icons/menu/routes.svg";
+import Stores from "@/icons/menu/stores.svg";
 
 export default {
   data() {
@@ -44,12 +44,12 @@ export default {
         <MenuItem
           :icon="images.icons.salesmans"
           label="salesmans"
-          route="/salesman"
+          route="salesmans"
         />
-        <MenuItem :icon="images.icons.stores" label="stores" route="/stores" />
-        <MenuItem :icon="images.icons.events" label="events" route="/events" />
-        <MenuItem :icon="images.icons.routes" label="routes" route="/routes" />
-        <MenuItem :icon="images.icons.cities" label="cities" route="/cities" />
+        <MenuItem :icon="images.icons.stores" label="stores" route="stores" />
+        <MenuItem :icon="images.icons.events" label="events" route="events" />
+        <MenuItem :icon="images.icons.routes" label="routes" route="routes" />
+        <MenuItem :icon="images.icons.cities" label="cities" route="cities" />
       </div>
       <div class="flex flex-col w-full h-full justify-end">
         <MenuFooterButton :icon="images.icons.exit" label="exit" />

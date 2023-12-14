@@ -15,9 +15,9 @@ const router = createRouter({
       component: () => import("../views/admin/dashboard/Dashboard.vue"),
     },
     {
-      path: "/salesman",
-      name: "salesman",
-      component: () => import("../views/salesman/Salesman.vue"),
+      path: "/salesmans",
+      name: "salesmans",
+      component: () => import("../views/salesman/Salesmans.vue"),
     },
     {
       path: "/stores",
@@ -39,11 +39,13 @@ const router = createRouter({
       name: "cities",
       component: () => import("../views/cities/Cities.vue"),
     },
+    {
+      path: '/notfound',
+      name: "notfound",
+      component: () => import("@/src/vies/error/NotFound.vue"),
+    },
   ],
 });
 
-router.beforeEach((to, from) => {
-  // return from.name;
-});
 
 export default router;
