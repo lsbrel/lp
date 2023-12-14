@@ -8,6 +8,7 @@ import { createPinia } from "pinia";
 
 const app = createApp(App);
 
+
 /** TRADUTOR */
 app.config.globalProperties.$t = Translate.to;
 /** TRADUTOR */

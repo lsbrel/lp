@@ -3,12 +3,12 @@ import MenuItem from "./MenuItem.vue";
 import MenuTitle from "./MenuTitle.vue";
 import MenuFooterButton from "./MenuFooterButton.vue";
 import Logo from "@/icons/logo_sem_fundo.png";
-import Exit from "@/icons/exit.png";
-import Salesmans from "@/icons/salesman.png";
-import Events from "@/icons/events.png";
-import Cities from "@/icons/cities.png";
-import Routes from "@/icons/routes.png";
-import Stores from "@/icons/stores.png";
+import Exit from "@/icons/menu/exit.svg"
+import Salesmans from "@/icons/menu/salesman.svg"
+import Events from "@/icons/menu/events.svg"
+import Cities from "@/icons/menu/cities.svg"
+import Routes from "@/icons/menu/routes.svg"
+import Stores from "@/icons/menu/stores.svg"
 
 export default {
   data() {

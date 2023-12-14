@@ -9,9 +9,9 @@ import TranslatorWidget from "./components/TranslatorWidget.vue";
     <Menu></Menu>
     <TranslatorWidget />
     <router-view v-slot="{ Component }">
-      <transition>
+      <Transition>
         <component :is="Component" />
-      </transition>
+      </Transition>
     </router-view>
   </div>
 </template>

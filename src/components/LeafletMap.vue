@@ -1,7 +1,7 @@
 <script>
 import Leaflet from "leaflet";
 import Loading from "./Loading.vue";
-import Icone from "@/icons/cities.png";
+import Icone from "@/icons/markers/red_marker.svg";
 
 export default {
   components: {
@@ -64,5 +64,5 @@ export default {
 };
 </script>
 <template>
-  <div id="map" class="w-1/2 h-3/4 p-3 mt-4 rounded-lg"><Loading /></div>
+  <div id="map" class="h-full w-full p-3 mt-4 shadow-lg rounded-lg"><Loading /></div>
 </template>

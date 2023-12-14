@@ -1,5 +1,5 @@
 <script>
-import loading from "@/icons/loading.png";
+import loading from "@/icons/loading.svg";
 export default {
   data() {
     return {
@@ -9,7 +9,7 @@ export default {
 };
 </script>
 <template>
-  <span class="flex flex-row justify-center items-center align-center bg-blue-"
-    ><img class="animate-spin" :src="loading"
+  <span class="flex flex-row justify-center items-center align-center"
+    ><img class="animate-spin-slow" width="48" height="48" :src="loading"
   /></span>
 </template>
