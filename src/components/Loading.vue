@@ -9,7 +9,7 @@ export default {
 };
 </script>
 <template>
-  <span class="flex flex-row justify-center align-center bg-blue-"
-    ><img class="animate-spin" :src="icon"
+  <span class="flex flex-row justify-center items-center align-center bg-blue-"
+    ><img class="animate-spin" :src="loading"
   /></span>
 </template>

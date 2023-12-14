@@ -1,6 +1,7 @@
 <script>
 import Leaflet from "leaflet";
 import Loading from "./Loading.vue";
+import Icone from "@/icons/cities.png";
 
 export default {
   components: {
@@ -11,7 +12,6 @@ export default {
       map: undefined,
       icons: [],
       markers: [],
-      icon: icone,
     };
   },
   methods: {
@@ -49,7 +49,7 @@ export default {
     },
     createIcon() {
       this.icons[0] = Leaflet.icon({
-        iconUrl: icone,
+        iconUrl: Icone,
         iconSize: [38, 95],
         iconAnchor: [22, 94],
         popupAnchor: [-3, -76],
@@ -64,6 +64,5 @@ export default {
 };
 </script>
 <template>
-  <div id="map" class="w-1/2 h-3/4 p-3 mt-4 rounded-lg"></div>
-  <Loading />
+  <div id="map" class="w-1/2 h-3/4 p-3 mt-4 rounded-lg"><Loading /></div>
 </template>
