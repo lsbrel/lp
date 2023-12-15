@@ -17,32 +17,32 @@ const router = createRouter({
     {
       path: "/salesmans",
       name: "salesmans",
-      component: () => import("../views/salesman/Salesmans.vue"),
+      component: () => import("@/views/salesman/Salesmans.vue"),
     },
     {
       path: "/stores",
       name: "stores",
-      component: () => import("../views/stores/Stores.vue"),
+      component: () => import("@/views/stores/Stores.vue"),
     },
     {
       path: "/events",
       name: "events",
-      component: () => import("../views/events/Events.vue"),
+      component: () => import("@/views/events/Events.vue"),
     },
     {
       path: "/routes",
       name: "routes",
-      component: () => import("../views/routes/Routes.vue"),
+      component: () => import("@/views/routes/Routes.vue"),
     },
     {
       path: "/cities",
       name: "cities",
-      component: () => import("../views/cities/Cities.vue"),
+      component: () => import("@/views/cities/Cities.vue"),
     },
     {
       path: '/notfound',
       name: "notfound",
-      component: () => import("@/src/vies/error/NotFound.vue"),
+      component: () => import("@/views/error/NotFound.vue"),
     },
   ],
 });
