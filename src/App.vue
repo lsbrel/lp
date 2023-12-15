@@ -1,6 +1,6 @@
 <script setup>
 import { RouterView } from "vue-router";
-import Menu from "./views/menu/Menu.vue";
+import Menu from "./layouts/Menu.vue";
 import TranslatorWidget from "./components/TranslatorWidget.vue";
 import Layout from "./layouts/Layout.vue";
 </script>

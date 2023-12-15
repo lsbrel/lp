@@ -23,7 +23,7 @@ export default {
 };
 </script>
 <template>
-  <div class="absolute top-0 right-0 mt-4 mr-4">
+  <div class="absolute top-0 right-0 mt-4 mr-4" style="z-index: 1000">
     <div class="flex flex-row justify-center gap-1">
       <span
         @click="changeLang('pt')"

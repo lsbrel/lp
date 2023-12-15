@@ -1,7 +1,7 @@
 <script>
-import MenuItem from "./MenuItem.vue";
-import MenuTitle from "./MenuTitle.vue";
-import MenuFooterButton from "./MenuFooterButton.vue";
+import MenuItem from "@/components/menu/MenuItem.vue";
+import MenuTitle from "@/components/menu/MenuTitle.vue";
+import MenuFooterButton from "@/components/menu/MenuFooterButton.vue";
 import Logo from "@/icons/logo_sem_fundo.png";
 import Exit from "@/icons/menu/exit.svg";
 import Salesmans from "@/icons/menu/salesman.svg";

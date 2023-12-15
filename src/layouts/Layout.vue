@@ -10,7 +10,7 @@ export default {
 };
 </script>
 <template>
-  <div class="flex flex-col w-full">
+  <div class="flex flex-col w-full md:w-10/12 2xl:w-11/12 overflow-y-scroll">
     <HeaderTitle :label="$route.name" />
     <RouterView v-slot="{ Component }">
       <Transition>
