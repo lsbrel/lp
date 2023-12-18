@@ -18,14 +18,17 @@ export default {
   updated() {
     setTimeout(() => {
       this.store.setLoading(false);
-    }, 2000);
+    }, 1500);
   },
 };
 </script>
 <template>
   <div class="flex flex-col w-full md:w-10/12 2xl:w-11/12 overflow-y-scroll">
     <HeaderTitle :label="$route.name" />
-    <div v-if="store.loading">
+    <div
+      v-if="store.loading"
+      class="flex flex-col justify-center w-full h-full"
+    >
       <span class="flex flex-row justify-center items-center align-center"
         ><img class="animate-spin-slow" width="48" height="48" :src="loading"
       /></span>
