@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import { useAppStore } from "../stores";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -40,12 +41,21 @@ const router = createRouter({
       component: () => import("@/views/cities/Cities.vue"),
     },
     {
-      path: '/notfound',
+      path: "/notfound",
       name: "notfound",
       component: () => import("@/views/error/NotFound.vue"),
     },
   ],
 });
 
+router.beforeEach((to, from) => {
+  const store = useAppStore();
+  store.setLoading(true);
+});
+
+// router.afterEach((to, from, next) => {
+//   const store = useAppStore();
+//   store.setLoading(true);
+// });
 
 export default router;

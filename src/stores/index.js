@@ -5,6 +5,7 @@ export const useAppStore = defineStore("app", {
   state: () => ({
     lang: "pt",
     isDarkMode: false,
+    loading: false,
     user: {
       id: 0,
       type: 0,
@@ -23,6 +24,9 @@ export const useAppStore = defineStore("app", {
     setUserData(newUserData) {
       this.user = newUserData;
     },
+    setLoading(value) {
+      this.loading = value;
+    },
   },
   getters: {
     getLang() {
@@ -33,6 +37,9 @@ export const useAppStore = defineStore("app", {
     },
     getUserData() {
       return this.user;
+    },
+    getLoading() {
+      return this.loading;
     },
   },
 });
