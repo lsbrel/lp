@@ -1,8 +1,8 @@
 <script>
 import { RouterView } from "vue-router";
-import HeaderTitle from "../components/HeaderTitle.vue";
-import { useAppStore } from "../stores/index.js";
-import ViewLoading from "./ViewLoading.vue";
+import HeaderTitle from "@/components/HeaderTitle.vue";
+import { useAppStore } from "@/stores/index.js";
+import ViewLoading from "@/layouts/ViewLoading.vue";
 
 export default {
   components: {

@@ -1,6 +1,6 @@
 <script>
 import Leaflet from "leaflet";
-import Loading from "./Loading.vue";
+import Loading from "@/components/Loading.vue";
 import Icone from "@/icons/markers/red_marker.svg";
 
 export default {

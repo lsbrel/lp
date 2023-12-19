@@ -1,7 +1,7 @@
 <script setup>
-import Menu from "./layouts/Menu.vue";
-import FloatingWidget from "./components/helpers/FloatingWidget.vue";
-import Layout from "./layouts/Layout.vue";
+import Menu from "@/layouts/Menu.vue";
+import FloatingWidget from "@/components/helpers/FloatingWidget.vue";
+import Layout from "@/layouts/Layout.vue";
 </script>
 
 <template>
