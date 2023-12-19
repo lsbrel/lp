@@ -6,4 +6,12 @@ export default class LocalStorageController {
   static storeTheme(theme) {
     localStorage.setItem("theme", theme);
   }
+
+  static getTheme() {
+    return localStorage.getItem("theme");
+  }
+
+  static getLang() {
+    return localStorage.getItem("lang");
+  }
 }
