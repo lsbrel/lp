@@ -18,5 +18,14 @@
   .text-black {
     color: #fbfdfd !important;
   }
+  .shadow-md {
+    box-shadow: 0 4px 6px -1px #fbfdfd, 0 2px 4px -2px #fbfdfd;
+  }
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px #fbfdfd, 0 4px 6px -4px #fbfdfd;
+  }
+  .shadow-2xl {
+    box-shadow: 0 10px 15px -8px #fbfdfd;
+  }
 }
 /** DARK MDOE CLASSES */
