@@ -15,7 +15,7 @@ export default {
     @click="() => $router.push(route)"
     class="flex flex-row items-center gap-2 p-4 text-lg capitalize text-center text-black hover:scale-95 transition-all w-full cursor-pointer"
   >
-    <img :src="icon" width="32" height="32" />
+    <slot></slot>
     <span>{{ $t(label) }}</span>
   </div>
 </template>

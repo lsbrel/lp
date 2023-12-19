@@ -3,12 +3,12 @@ import MenuItem from "@/components/menu/MenuItem.vue";
 import MenuTitle from "@/components/menu/MenuTitle.vue";
 import MenuFooterButton from "@/components/menu/MenuFooterButton.vue";
 import Logo from "@/icons/logo_sem_fundo.png";
-import Exit from "@/icons/menu/exit.svg";
-import Salesmans from "@/icons/menu/salesman.svg";
-import Events from "@/icons/menu/events.svg";
-import Cities from "@/icons/menu/cities.svg";
-import Routes from "@/icons/menu/routes.svg";
-import Stores from "@/icons/menu/stores.svg";
+import Exit from "@/icons/menu/Exit.vue";
+import Salesman from "@/icons/menu/Salesman.vue";
+import Events from "@/icons/menu/Events.vue";
+import Routes from "@/icons/menu/Routes.vue";
+import Stores from "@/icons/menu/Stores.vue";
+import Cities from "@/icons/menu/Cities.vue";
 
 export default {
   data() {
@@ -17,16 +17,21 @@ export default {
         logo: Logo,
         icons: {
           exit: Exit,
-          salesmans: Salesmans,
-          events: Events,
-          cities: Cities,
-          routes: Routes,
-          stores: Stores,
         },
       },
     };
   },
-  components: { MenuItem, MenuTitle, MenuFooterButton },
+  components: {
+    MenuItem,
+    MenuTitle,
+    MenuFooterButton,
+    Cities,
+    Stores,
+    Routes,
+    Events,
+    Salesman,
+    Exit,
+  },
 };
 </script>
 <template>
@@ -41,18 +46,26 @@ export default {
       <div
         class="flex flex-row md:flex-col items-center md:h-5/7 lg:h-5/7 gap-1"
       >
-        <MenuItem
-          :icon="images.icons.salesmans"
-          label="salesmans"
-          route="salesmans"
-        />
-        <MenuItem :icon="images.icons.stores" label="stores" route="stores" />
-        <MenuItem :icon="images.icons.events" label="events" route="events" />
-        <MenuItem :icon="images.icons.routes" label="routes" route="routes" />
-        <MenuItem :icon="images.icons.cities" label="cities" route="cities" />
+        <MenuItem label="salesmans" route="salesmans">
+          <Salesman />
+        </MenuItem>
+        <MenuItem label="stores" route="stores">
+          <Stores />
+        </MenuItem>
+        <MenuItem label="events" route="events">
+          <Events />
+        </MenuItem>
+        <MenuItem label="routes" route="routes">
+          <Routes />
+        </MenuItem>
+        <MenuItem label="cities" route="cities">
+          <Cities />
+        </MenuItem>
       </div>
       <div class="flex flex-col w-full h-full justify-end">
-        <MenuFooterButton :icon="images.icons.exit" label="exit" />
+        <MenuFooterButton label="exit">
+          <Exit />
+        </MenuFooterButton>
       </div>
     </div>
   </div>

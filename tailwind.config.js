@@ -26,6 +26,7 @@ module.exports = {
         success: "#59D02F",
         kgray: "#E3E3E3",
         kwhite: "#FBFDFD",
+        kdark: "#092635",
       },
     },
   },

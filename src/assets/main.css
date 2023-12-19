@@ -15,6 +15,9 @@
   .bg-kwhite {
     background-color: #092635;
   }
+  .fill-kdark{
+    fill: #fbfdfd;
+  }
   .text-black {
     color: #fbfdfd !important;
   }
