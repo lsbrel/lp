@@ -23,7 +23,9 @@ export default {
 };
 </script>
 <template>
-  <div class="flex flex-col w-full md:w-10/12 2xl:w-11/12 overflow-y-scroll">
+  <div
+    class="flex flex-col w-full md:w-10/12 2xl:w-11/12 overflow-y-scroll bg-kwhite"
+  >
     <HeaderTitle :label="$route.name" />
     <div
       v-if="store.loading"

@@ -9,3 +9,14 @@
   scroll-behavior: smooth !important;
   font-family: Arial;
 }
+
+/** DARK MDOE CLASSES */
+.dark {
+  .bg-kwhite {
+    background-color: #092635;
+  }
+  .text-black {
+    color: #fbfdfd !important;
+  }
+}
+/** DARK MDOE CLASSES */

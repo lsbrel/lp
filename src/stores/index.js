@@ -17,9 +17,14 @@ export const useAppStore = defineStore("app", {
       this.lang = newLang;
       LocalStorageController.storeLang(newLang);
     },
-    setTheme() {
+    setTheme(theme) {
       this.isDarkMode = !this.isDarkMode;
-      LocalStorageController.storeTheme(this.isDarkMode);
+      LocalStorageController.storeTheme(theme);
+      if (theme == "dark") {
+        document.querySelector("body")?.classList.add("dark");
+      } else {
+        document.querySelector("body")?.classList.remove("dark");
+      }
     },
     setUserData(newUserData) {
       this.user = newUserData;

@@ -53,9 +53,4 @@ router.beforeEach((to, from) => {
   store.setLoading(true);
 });
 
-// router.afterEach((to, from, next) => {
-//   const store = useAppStore();
-//   store.setLoading(true);
-// });
-
 export default router;
