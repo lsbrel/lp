@@ -17,7 +17,7 @@ export default {
   <div
     class="invisible md:visible p-4 uppercase text-center mt-3 scale-95 hover:scale-100 transition-transform"
   >
-    <RouterLink to="/">
+    <RouterLink to="/dashboard">
       <img :src="sourceImage" />
       <hr class="w-3/4 mx-auto mt-4 bg-primary text-primary" />
     </RouterLink>

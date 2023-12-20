@@ -6,6 +6,7 @@ export const useAppStore = defineStore("app", {
     lang: "pt",
     isDarkMode: false,
     loading: false,
+    layout: "control",
     user: {
       id: 0,
       type: 0,
@@ -32,6 +33,9 @@ export const useAppStore = defineStore("app", {
     setLoading(value) {
       this.loading = value;
     },
+    setLayout(value) {
+      this.layout = value;
+    },
   },
   getters: {
     getLang() {
@@ -45,6 +49,9 @@ export const useAppStore = defineStore("app", {
     },
     getLoading() {
       return this.loading;
+    },
+    getLayout() {
+      return this.layout;
     },
   },
 });

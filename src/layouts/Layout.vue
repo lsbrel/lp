@@ -24,9 +24,9 @@ export default {
 </script>
 <template>
   <div
-    class="flex flex-col w-full md:w-10/12 2xl:w-11/12 overflow-y-scroll bg-kwhite"
+    class="flex flex-col w-full md:w-full 2xl:w-full overflow-y-scroll bg-kwhite"
   >
-    <HeaderTitle :label="$route.name" />
+    <HeaderTitle v-if="store.getLayout == 'control'" :label="$route.name" />
     <ViewLoading v-if="store.loading" />
     <RouterView v-else v-slot="{ Component }">
       <Transition>

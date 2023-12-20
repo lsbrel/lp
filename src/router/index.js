@@ -7,8 +7,15 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "initial",
-      redirect: "dashboard",
+      name: "home",
+      component: () => import("../views/home/Home.vue"),
+      meta: { layout: "page" },
+    },
+    {
+      path: "/login",
+      name: "login",
+      component: () => import("../views/login/Login.vue"),
+      meta: { layout: "page" },
     },
     {
       path: "/dashboard",
@@ -50,6 +57,13 @@ const router = createRouter({
 
 router.beforeEach((to, from) => {
   const store = useAppStore();
+
+  if (to.meta.layout == "page") {
+    store.setLayout("page");
+  } else {
+    store.setLayout("control");
+  }
+
   store.setLoading(true);
 });
 
