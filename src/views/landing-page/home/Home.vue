@@ -1,26 +1,45 @@
 <script>
-import Response from "@lib/Response";
-import Request from "@lib/Request";
+/** HOME COMPONENTS */
+import Navbar from "@landing/home/Navbar.vue";
+import Banner from "@landing/home/Banner.vue";
+import Midsection from "@landing/home/Midsection.vue";
+import Midsection2 from "@landing/home/Midsection2.vue";
+import Midsection3 from "@landing/home/Midsection3.vue";
+import Midsection4 from "@landing/home/Midsection4.vue";
+import Midsection5 from "@landing/home/Midsection5.vue";
+import Footer from "@landing/home/Footer.vue";
+import FloatingWidget from "@components/helpers/FloatingWidget.vue";
+/** HOME COMPONENTS */
 
 export default {
+  components: {
+    Navbar,
+    Banner,
+    Midsection,
+    Midsection2,
+    Midsection3,
+    Midsection4,
+    Midsection5,
+    Footer,
+    FloatingWidget,
+  },
   date() {
     return {};
-  },
-  methods: {
-    fazerLogin() {
-      const data = new Request();
-
-      Response.toastMessage(false, `${data.resolveHost()}`);
-      // this.$router.push("/dashboard");
-    },
   },
 };
 </script>
 <template>
-  <div class="flex flex-col gap-4 h-full w-full">
-    <div class="h-5/6 w-full bg-red-200">panel</div>
-    <button class="bg-blue-400 text-white rounded-md" @click="fazerLogin()">
-      Login
-    </button>
+  <div>
+    <div class="text-gray-800 antialiased">
+      <FloatingWidget />
+      <Navbar />
+      <Banner />
+      <Midsection />
+      <Midsection2 />
+      <Midsection3 />
+      <Midsection4 />
+      <Midsection5 />
+      <Footer />
+    </div>
   </div>
 </template>
