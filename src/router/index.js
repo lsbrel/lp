@@ -9,13 +9,13 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: () => import("@landing/home/Home.vue"),
+      component: () => import("@landing/home/Index.vue"),
       meta: { layout: "page" },
     },
     {
       path: "/login",
       name: "login",
-      component: () => import("@landing/login/Login.vue"),
+      component: () => import("@landing/login/Index.vue"),
       meta: { layout: "page" },
     },
     /** PAGINAS */
