@@ -3,7 +3,7 @@
 import Navbar from "@landing/home/Navbar.vue";
 import Banner from "@landing/home/Banner.vue";
 import Cards from "@landing/home/Cards.vue";
-import Midsection2 from "@landing/home/Midsection2.vue";
+import BannerText from "@landing/home/BannerText.vue";
 import Midsection3 from "@landing/home/Midsection3.vue";
 import Midsection4 from "@landing/home/Midsection4.vue";
 import Midsection5 from "@landing/home/Midsection5.vue";
@@ -16,7 +16,7 @@ export default {
     Navbar,
     Banner,
     Cards,
-    Midsection2,
+    BannerText,
     Midsection3,
     Midsection4,
     Midsection5,
@@ -35,7 +35,7 @@ export default {
       <Navbar />
       <Banner />
       <Cards />
-      <Midsection2 />
+      <BannerText />
       <Midsection3 />
       <Midsection4 />
       <Midsection5 />

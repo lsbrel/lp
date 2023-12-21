@@ -15,7 +15,7 @@
         y="0"
       >
         <polygon
-          class="text-white fill-current"
+          class="text-blue-700 fill-current"
           points="2560 0 2560 100 0 100"
         ></polygon>
       </svg>
@@ -36,8 +36,8 @@
             >
               <i class="fas fa-rocket text-xl"></i>
             </div>
-            <h3 class="text-3xl font-semibold">A growing company</h3>
-            <p class="mt-4 text-lg leading-relaxed text-gray-600">
+            <h3 class="text-3xl font-semibold text-black">A growing company</h3>
+            <p class="mt-4 text-lg leading-relaxed text-black">
               The extension comes with three pre-built pages to help you get
               started faster. You can change the text and images and you're good
               to go.
@@ -52,7 +52,7 @@
                     ></span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Carefully crafted components</h4>
+                    <h4 class="text-black">Carefully crafted components</h4>
                   </div>
                 </div>
               </li>
@@ -65,7 +65,7 @@
                     ></span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Amazing page examples</h4>
+                    <h4 class="text-black">Amazing page examples</h4>
                   </div>
                 </div>
               </li>
@@ -78,7 +78,7 @@
                     ></span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Dynamic components</h4>
+                    <h4 class="text-black">Dynamic components</h4>
                   </div>
                 </div>
               </li>
