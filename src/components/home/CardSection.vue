@@ -6,19 +6,19 @@
                 class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
                 <i class="fas fa-user-friends text-xl"></i>
             </div>
-            <h3 class="text-3xl text-black mb-2 font-semibold leading-normal">
+            <h3 class="text-3xl text-gray-800 mb-2 font-semibold leading-normal">
                 Working with us is a pleasure
             </h3>
-            <p class="text-lg text-black font-light leading-relaxed mt-4 mb-4">
+            <p class="text-lg text-gray-800 font-light leading-relaxed mt-4 mb-4">
                 Don't let your uses guess by attaching tooltips and popoves to any
                 element. Just make sure you enable them first via JavaScript.
             </p>
-            <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-black">
+            <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-800">
                 The kit comes with three pre-built pages to help you get started
                 faster. You can change the text and images and you're good to go.
                 Just make sure you enable them first via JavaScript.
             </p>
-            <a href="#loja" class="font-bold text-black p-4 mt-9 bg-blue-700 rounded-md">Check Tailwind Starter Kit!</a>
+            <a href="#loja" class="font-bold text-gray-800 mt-9">Check Tailwind Starter Kit!</a>
         </div>
         <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
             <div class="relative flex flex-col min-w-0 break-words bg-kwhite w-full mb-6 shadow-lg rounded-lg">
@@ -30,8 +30,8 @@
                         class="absolute left-0 w-full block" style="height: 95px; top: -94px">
                         <polygon points="-30,95 583,95 583,65" class="text-blue-600 fill-current"></polygon>
                     </svg>
-                    <h4 class="text-xl font-bold text-black">Top Notch Services</h4>
-                    <p class="text-md font-light mt-2 text-black">
+                    <h4 class="text-xl font-bold text-gray-900">Top Notch Services</h4>
+                    <p class="text-md font-light mt-2 text-gray-800">
                         The Arctic Ocean freezes every winter and much of the sea-ice
                         then thaws every summer, and that process will continue whatever
                         happens.

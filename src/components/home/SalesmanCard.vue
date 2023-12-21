@@ -13,8 +13,8 @@ export default{
             <img :alt="name" :src="photo" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px" />
             <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold text-black">{{ name }}</h5>
-                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold text-black">
+                <h5 class="text-xl font-bold text-gray-800">{{ name }}</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold text-gray-800">
                     {{ region }}
                 </p>
                 <div class="mt-6">
