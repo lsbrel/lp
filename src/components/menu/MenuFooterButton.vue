@@ -7,7 +7,7 @@ export default {
 </script>
 <template>
   <div
-    @click="() => $router.push('/exit')"
+    @click="() => $router.push('/')"
     class="flex flex-row w-full items-center gap-2 p-4 mb-4 cursor-pointer text-black hover:scale-95 transition-all font-bold"
   >
     <slot></slot>
