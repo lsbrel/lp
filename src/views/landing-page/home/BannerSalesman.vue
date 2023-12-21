@@ -6,8 +6,8 @@ import SalesmanCard from '@components/home/SalesmanCard.vue';
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap justify-center text-center mb-24">
         <div class="w-full lg:w-6/12 px-4">
-          <h2 class="text-4xl font-semibold text-black capitalize">{{ $t('salesmans') }}</h2>
-          <p class="text-lg leading-relaxed m-4 text-black">
+          <h2 class="text-4xl font-semibold text-gray-800 capitalize">{{ $t('salesmans') }}</h2>
+          <p class="text-lg leading-relaxed m-4 text-gray-800">
             {{ $t('know-salesman') }}
           </p>
         </div>

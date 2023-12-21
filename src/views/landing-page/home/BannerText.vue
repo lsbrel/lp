@@ -1,6 +1,6 @@
 <script></script>
 <template>
-  <section class="relative py-20">
+  <section class="relative py-20 bg-white">
     <div
       class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
       style="height: 80px"
@@ -20,7 +20,7 @@
         ></polygon>
       </svg>
     </div>
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 bg-white">
       <div class="items-center flex flex-wrap">
         <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
           <img
