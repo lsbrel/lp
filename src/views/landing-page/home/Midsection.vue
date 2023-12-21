@@ -4,6 +4,7 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
         <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+          <!-- CARD -->
           <div
             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
           >
@@ -20,8 +21,11 @@
               </p>
             </div>
           </div>
+          <!-- CARD -->
         </div>
+
         <div class="w-full md:w-4/12 px-4 text-center">
+          <!-- CARD -->
           <div
             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
           >
@@ -38,8 +42,10 @@
               </p>
             </div>
           </div>
+          <!-- CARD-->
         </div>
         <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+          <!-- CARD-->
           <div
             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
           >
@@ -56,8 +62,11 @@
               </p>
             </div>
           </div>
+          <!-- CARD-->
         </div>
       </div>
+
+      <!-- EMBAIXO DOS CARDS-->
       <div class="flex flex-wrap items-center mt-32">
         <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
           <div
@@ -115,6 +124,7 @@
           </div>
         </div>
       </div>
+      <!-- EMBAIXO DOS CARDS-->
     </div>
   </section>
 </template>
