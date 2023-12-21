@@ -1,6 +1,7 @@
 <script></script>
 <template>
   <footer class="relative bg-gray-300 pt-8 pb-6">
+    <!-- PARTE QUE DA FORMA DA DIV -->
     <div
       class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
       style="height: 80px"
@@ -20,10 +21,12 @@
         ></polygon>
       </svg>
     </div>
+    <!-- PARTE QUE DA FORMA DA DIV -->
+
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+          <h4 class="text-3xl font-semibold">{{ $t("footer-calling") }}</h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
             Find us on any of these platforms, we respond 1-2 business days.
           </h5>
