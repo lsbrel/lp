@@ -11,11 +11,12 @@ export default {
 };
 </script>
 <template>
-  <div
-    @click="() => $router.push(route)"
-    class="flex flex-row items-center gap-2 p-4 text-lg capitalize text-center text-black hover:scale-95 transition-all w-full cursor-pointer"
-  >
-    <slot></slot>
-    <span>{{ $t(label) }}</span>
-  </div>
+  <RouterLink :to="route">
+    <div
+      class="flex flex-row items-center gap-2 p-4 text-lg capitalize text-center text-black hover:scale-95 transition-all w-full cursor-pointer"
+    >
+      <slot></slot>
+      <span>{{ $t(label) }}</span>
+    </div>
+  </RouterLink>
 </template>

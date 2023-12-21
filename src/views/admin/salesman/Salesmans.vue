@@ -1,15 +1,11 @@
 <script>
-import HeaderTitle from "@/components/HeaderTitle.vue";
-
 export default {
   data() {
     return {};
   },
-  components: { HeaderTitle },
 };
 </script>
 <template>
-  <HeaderTitle label="salesmans" />
   <div class="w-full h-full bg-kwhite p-5 mt-0">
     <!-- 1 -->
     <div class="flex flex-row h-2/6 gap-2 mb-3">
