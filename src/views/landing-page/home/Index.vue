@@ -2,7 +2,7 @@
 /** HOME COMPONENTS */
 import Navbar from "@landing/home/Navbar.vue";
 import Banner from "@landing/home/Banner.vue";
-import Midsection from "@landing/home/Midsection.vue";
+import Cards from "@landing/home/Cards.vue";
 import Midsection2 from "@landing/home/Midsection2.vue";
 import Midsection3 from "@landing/home/Midsection3.vue";
 import Midsection4 from "@landing/home/Midsection4.vue";
@@ -15,7 +15,7 @@ export default {
   components: {
     Navbar,
     Banner,
-    Midsection,
+    Cards,
     Midsection2,
     Midsection3,
     Midsection4,
@@ -34,7 +34,7 @@ export default {
       <FloatingWidget />
       <Navbar />
       <Banner />
-      <Midsection />
+      <Cards />
       <Midsection2 />
       <Midsection3 />
       <Midsection4 />

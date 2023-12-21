@@ -23,7 +23,7 @@
             <h1 class="text-white font-semibold text-5xl uppercase">
               {{ $t("calling-banner") }}
             </h1>
-            <p class="mt-4 text-lg text-gray-300">
+            <p class="mt-4 text-lg text-gray-400">
               {{ $t("text-banner") }}
             </p>
           </div>

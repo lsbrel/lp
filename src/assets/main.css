@@ -40,5 +40,12 @@
     color: red !important;
     background-color: #213e4d !important;
   }
+
+  .bg-gray-300{
+    background-color: #092635;
+  }
+  .text-gray-300{
+    color: #092635;
+  }
 }
 /** DARK MDOE CLASSES */
