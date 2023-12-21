@@ -21,6 +21,7 @@ export default defineConfig({
       /** RESOURCES */
       "@components": fileURLToPath(new URL("./src/components", import.meta.url)),
       "@icons": fileURLToPath(new URL("./src/icons", import.meta.url)),
+      "@lib": fileURLToPath(new URL("./src/lib", import.meta.url)),
       /** RESOURCES */
 
     },
