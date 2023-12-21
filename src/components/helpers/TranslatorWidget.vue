@@ -1,8 +1,8 @@
 <script>
 import { useAppStore } from "@/stores/index.js";
-import Brazil from "@/icons/flags/pt.png";
-import Usa from "@/icons/flags/en.png";
-import Spain from "@/icons/flags/es.png";
+import Brazil from "@icons/flags/pt.png";
+import Usa from "@icons/flags/en.png";
+import Spain from "@icons/flags/es.png";
 
 export default {
   data() {

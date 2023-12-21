@@ -1,7 +1,7 @@
 <script>
 import { useAppStore } from "@/stores/index.js";
-import Dark from "@/icons/themes/dark.png";
-import Light from "@/icons/themes/light.png";
+import Dark from "@icons/themes/dark.png";
+import Light from "@icons/themes/light.png";
 export default {
   data() {
     return {

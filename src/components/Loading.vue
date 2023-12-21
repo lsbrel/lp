@@ -1,5 +1,5 @@
 <script>
-import loading from "@/icons/loading.svg";
+import loading from "@icons/loading.svg";
 export default {
   data() {
     return {

@@ -1,14 +1,14 @@
 <script>
-import MenuItem from "@/components/menu/MenuItem.vue";
-import MenuTitle from "@/components/menu/MenuTitle.vue";
-import MenuFooterButton from "@/components/menu/MenuFooterButton.vue";
-import Logo from "@/icons/logo_sem_fundo.png";
-import Exit from "@/icons/menu/Exit.vue";
-import Salesman from "@/icons/menu/Salesman.vue";
-import Events from "@/icons/menu/Events.vue";
-import Routes from "@/icons/menu/Routes.vue";
-import Stores from "@/icons/menu/Stores.vue";
-import Cities from "@/icons/menu/Cities.vue";
+import MenuItem from "@components/menu/MenuItem.vue";
+import MenuTitle from "@components/menu/MenuTitle.vue";
+import MenuFooterButton from "@components/menu/MenuFooterButton.vue";
+import Logo from "@icons/logo_sem_fundo.png";
+import Exit from "@icons/menu/Exit.vue";
+import Salesman from "@icons/menu/Salesman.vue";
+import Events from "@icons/menu/Events.vue";
+import Routes from "@icons/menu/Routes.vue";
+import Stores from "@icons/menu/Stores.vue";
+import Cities from "@icons/menu/Cities.vue";
 
 export default {
   data() {

@@ -1,5 +1,5 @@
 <script setup>
-import loading from "@/icons/loading.svg";
+import loading from "@icons/loading.svg";
 </script>
 <template>
   <div class="flex flex-col justify-center w-full h-full">
