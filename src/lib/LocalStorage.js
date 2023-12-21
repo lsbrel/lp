@@ -5,6 +5,7 @@ export default class LocalStorageController {
    *  informações de usuario, tema, linguagem
    */
 
+  /** STORE METHODS */
   static storeLang(lang) {
     localStorage.setItem("lang", lang);
   }
@@ -13,6 +14,12 @@ export default class LocalStorageController {
     localStorage.setItem("theme", theme);
   }
 
+  static storeToken(token) {
+    localStorage.setItem("token", token);
+  }
+  /** STORE METHODS */
+
+  /** RETRIEVE METHODS */
   static getTheme() {
     return localStorage.getItem("theme");
   }
@@ -20,4 +27,8 @@ export default class LocalStorageController {
   static getLang() {
     return localStorage.getItem("lang");
   }
+  static getToken() {
+    return localStorage.getItem("token");
+  }
+  /** RETRIEVE METHODS */
 }
