@@ -1,11 +1,17 @@
 <script>
+import Response from "@lib/Response";
+import Request from "@lib/Request";
+
 export default {
   date() {
     return {};
   },
   methods: {
     fazerLogin() {
-      this.$router.push("/dashboard");
+      const data = new Request();
+
+      Response.toastMessage(false, `${data.resolveHost()}`);
+      // this.$router.push("/dashboard");
     },
   },
 };

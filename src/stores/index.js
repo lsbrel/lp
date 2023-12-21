@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import LocalStorageController from "./localStorage";
+import LocalStorageController from "@lib/LocalStorage";
 
 export const useAppStore = defineStore("app", {
   state: () => ({
@@ -7,6 +7,7 @@ export const useAppStore = defineStore("app", {
     isDarkMode: false,
     loading: false,
     layout: "control",
+    token: false,
     user: {
       id: 0,
       type: 0,
@@ -36,6 +37,9 @@ export const useAppStore = defineStore("app", {
     setLayout(value) {
       this.layout = value;
     },
+    setToken(value) {
+      this.token = value;
+    },
   },
   getters: {
     getLang() {
@@ -52,6 +56,9 @@ export const useAppStore = defineStore("app", {
     },
     getLayout() {
       return this.layout;
+    },
+    getToken() {
+      return this.token;
     },
   },
 });

@@ -1,14 +1,12 @@
-import LocalStorageController from "./localStorage";
+import LocalStorageController from "@lib/LocalStorage";
 import { useAppStore } from ".";
 
 export default class InitConfig {
-
-
-    /**
-     * Classe que busca e seta em sessão reativa(Pinia) as escolhas esteticas e de acessibilidade do usuario
-     * tema, linguagem
-     *
-    */
+  /**
+   * Classe que busca e seta em sessão reativa(Pinia) as escolhas esteticas e de acessibilidade do usuario
+   * tema, linguagem
+   *
+   */
 
   lang = "pt";
   theme = "light";
