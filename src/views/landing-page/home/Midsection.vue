@@ -94,14 +94,14 @@
         </div>
         <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
           <div
-            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
+            class="relative flex flex-col min-w-0 break-words bg-kwhite w-full mb-6 shadow-lg rounded-lg"
           >
             <img
               alt="..."
               src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
               class="w-full align-middle rounded-t-lg"
             />
-            <blockquote class="relative p-8 mb-4">
+            <blockquote class="relative p-8 mb-4 bg-kwhite">
               <svg
                 preserveAspectRatio="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -111,11 +111,11 @@
               >
                 <polygon
                   points="-30,95 583,95 583,65"
-                  class="text-pink-600 fill-current"
+                  class="text-blue-600 fill-current"
                 ></polygon>
               </svg>
-              <h4 class="text-xl font-bold text-white">Top Notch Services</h4>
-              <p class="text-md font-light mt-2 text-white">
+              <h4 class="text-xl font-bold text-black">Top Notch Services</h4>
+              <p class="text-md font-light mt-2 text-black">
                 The Arctic Ocean freezes every winter and much of the sea-ice
                 then thaws every summer, and that process will continue whatever
                 happens.
