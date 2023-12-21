@@ -1,5 +1,6 @@
 <script></script>
 <template>
+  <!-- BANNER DE FATO-->
   <div
     class="relative pt-16 pb-32 flex content-center items-center justify-center"
     style="min-height: 75vh"
@@ -7,7 +8,7 @@
     <div
       class="absolute top-0 w-full h-full bg-center bg-cover"
       style="
-        background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80');
+        background-image: url('https://images2.alphacoders.com/103/103282.jpg');
       "
     >
       <span
@@ -19,18 +20,19 @@
       <div class="items-center flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
           <div class="pr-12">
-            <h1 class="text-white font-semibold text-5xl">
-              Your story starts with us.
+            <h1 class="text-white font-semibold text-5xl uppercase">
+              {{ $t("calling-banner") }}
             </h1>
             <p class="mt-4 text-lg text-gray-300">
-              This is a simple example of a Landing Page you can build using
-              Tailwind Starter Kit. It features multiple CSS components based on
-              the Tailwindcss design system.
+              {{ $t("text-banner") }}
             </p>
           </div>
         </div>
       </div>
     </div>
+    <!-- BANNER DE FATO-->
+
+    <!-- PARTE QUE DA O FORMATO DA IMAGEM -->
     <div
       class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
       style="height: 70px"
@@ -50,5 +52,6 @@
         ></polygon>
       </svg>
     </div>
+    <!-- PARTE QUE DA O FORMATO DA IMAGEM -->
   </div>
 </template>
