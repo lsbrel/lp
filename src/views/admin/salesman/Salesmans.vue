@@ -1,7 +1,39 @@
 <script>
+import TableSalesman from "@components/tables/TableUsers.vue";
 export default {
+  components: {
+    TableSalesman,
+  },
   data() {
     return {};
+  },
+  computed: {
+    columns() {
+      return [
+        {
+          field: "vendedor.nome",
+          title: this.$t("name"),
+          headerClass: "capitalize",
+        },
+        { field: "vendedor.email", title: "email", headerClass: "capitalize" },
+        {
+          field: "telefone",
+          title: this.$t("phone"),
+          headerClass: "capitalize",
+        },
+        {
+          field: "documento",
+          title: this.$t("docs"),
+          headerClass: "capitalize",
+        },
+        { field: "status", title: "status", headerClass: "capitalize" },
+        {
+          field: "btn",
+          title: this.$t("show-more"),
+          headerClass: "capitalize",
+        },
+      ];
+    },
   },
 };
 </script>
@@ -17,7 +49,9 @@ export default {
 
     <!-- 2 -->
     <div class="h-4/6 mb-3">
-      <div class="h-full bg-red-300 rounded-md">Tabela/lista de vendedores</div>
+      <div class="h-full rounded-md">
+        <TableSalesman :cols="columns" api-remote="/vendedor" />
+      </div>
     </div>
     <!-- 2 -->
   </div>

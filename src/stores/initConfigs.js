@@ -22,5 +22,6 @@ export default class InitConfig {
   setConfigs() {
     useAppStore().setTheme(this.theme);
     useAppStore().setLang(this.lang);
+    useAppStore().setApi();
   }
 }

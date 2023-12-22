@@ -33,6 +33,12 @@
     "english": "inglés",
     "spanish": "español",
     "portuguese": "portugués",
+    "name": "nombre",
+    "active": "activo",
+    "inactive": "inactivo",
+    "phone": "teléfono",
+    "docs": "documento",
+    "show-more": "ver más",
 
     "enter": "ingresar",
     "market": "mercado en línea",

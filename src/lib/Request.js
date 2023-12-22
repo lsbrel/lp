@@ -3,7 +3,7 @@ import { useAppStore } from "@/stores";
 
 export default class Request {
   connection = false;
-  #response = {
+  response = {
     status: false,
     data: {},
   };
@@ -19,66 +19,71 @@ export default class Request {
   }
 
   /** API INTERACTIONS METHODS */
-  index(route) {
-    this.connection
+  async index(route) {
+    let response = {
+      status: false,
+      data: {},
+    };
+    await this.connection
       .get(route)
       .then((res) => {
-        this.#setResponse(res.status, res.data);
+        response.status = true;
+        response.data = res.data;
       })
       .catch((err) => {
-        this.#setResponse(false, err);
+        response.status = false;
+        response.data = err;
       });
-
-    return this.#getResponse();
+    return response;
   }
 
-  store(route, data) {
+  async store(route, data) {
     this.connection
       .post(route, data)
       .then((res) => {
-        this.#setResponse(res.status, res.data);
+        this.setResponse(res.status, res.data);
       })
       .catch((err) => {
-        this.#setResponse(false, err);
+        this.setResponse(false, err);
       });
 
-    return this.#getResponse();
+    return this.getResponse();
   }
 
-  update(route, data) {
+  async update(route, data) {
     this.connection
       .put(route, data)
       .then((res) => {
-        this.#setResponse(res.status, res.data);
+        this.setResponse(res.status, res.data);
       })
       .catch((err) => {
-        this.#setResponse(false, err);
+        this.setResponse(false, err);
       });
 
-    return this.#getResponse();
+    return this.getResponse();
   }
   /** API INTERACTIONS METHODS */
 
   /** AUX METHODS */
   resolveHost() {
     if (this.#isLocalhost()) {
-      return "http://localhost:8000";
+      return "http://127.0.0.1:8000";
     } else {
       return "https://ktx.mundiflos.com.br";
     }
   }
+
+  setResponse(status, data) {
+    this.response.status = status;
+    this.response.data = data;
+  }
+
+  async getResponse() {
+    return this.response;
+  }
   /** AUX METHODS */
 
   /** PRIVATE METHODS */
-  #setResponse(status, data) {
-    this.#response.status = status;
-    this.#response.data = data;
-  }
-
-  #getResponse() {
-    return this.#response;
-  }
-
   #isLocalhost() {
     const url = window.location.href;
 

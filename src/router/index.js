@@ -53,6 +53,14 @@ const router = createRouter({
     },
     /** DASHBOARD */
 
+    /** DETAIL ROUTES */
+    {
+      path: "/profile/:id",
+      name: "details",
+      component: () => import("@admin/profile/Profile.vue"),
+    },
+    /** DETAIL ROUTES */
+
     /** ROTAS QUE NÂO FORAM ENCOTNRADAS */
     {
       path: "/page-not-found",
