@@ -64,7 +64,7 @@ export default {
 };
 </script>
 <template>
-  <div id="map" class="h-full w-full p-3 mt-4 shadow-lg rounded-lg">
+  <div id="map" class="h-full w-full shadow-lg rounded-lg">
     <Loading />
   </div>
 </template>

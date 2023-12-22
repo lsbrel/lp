@@ -55,8 +55,8 @@ const router = createRouter({
 
     /** DETAIL ROUTES */
     {
-      path: "/profile/:id",
-      name: "details",
+      path: "/profile/:type/:id",
+      name: "profile",
       component: () => import("@admin/profile/Profile.vue"),
     },
     /** DETAIL ROUTES */
@@ -68,11 +68,11 @@ const router = createRouter({
       component: () => import("@error/PageNotFound.vue"),
       meta: { layout: "page" },
     },
-    {
-      path: "/:pathMatch(.*)*",
-      name: "notfound",
-      component: () => import("@error/NotFound.vue"),
-    },
+    // {
+    //   path: "/:pathMatch(.*)*",
+    //   name: "notfound",
+    //   component: () => import("@error/NotFound.vue"),
+    // },
     /** ROTAS QUE NÂO FORAM ENCOTNRADAS */
   ],
 });

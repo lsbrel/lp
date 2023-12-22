@@ -36,7 +36,7 @@ export default {
     },
 
     showMore(id) {
-      this.$router.push(`/profile/${id}`);
+      this.$router.push(`/profile${this.apiRemote}/${id}`);
     },
   },
   created() {
@@ -55,7 +55,7 @@ export default {
   >
     <template #status="data"
       ><span
-        v-if="data.value.vendedor.ativo == 1"
+        v-if="data.value.profile.ativo == 1"
         class="bg-emerald-500 text-white w-full rounded-md p-2"
         >{{ $t("active") }}</span
       >
@@ -66,13 +66,10 @@ export default {
     <template #telefone="data">
       <span> {{ data.value.telefone[0].numero }}</span>
     </template>
-    <template #documento="data">
-      <span> {{ data.value.documento[0].numero }}</span>
-    </template>
     <template #btn="data">
       <button
         class="bg-blue-600 text-white p-2 w-1/2 uppercase rounded-md hover:bg-blue-500 transition-all text-center mx-auto"
-        @click="showMore(data.value.vendedor.id)"
+        @click="showMore(data.value.profile.id)"
       >
         {{ $t("show-more") }}
       </button>

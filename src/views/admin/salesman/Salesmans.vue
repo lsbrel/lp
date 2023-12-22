@@ -11,19 +11,14 @@ export default {
     columns() {
       return [
         {
-          field: "vendedor.nome",
+          field: "profile.nome",
           title: this.$t("name"),
           headerClass: "capitalize",
         },
-        { field: "vendedor.email", title: "email", headerClass: "capitalize" },
+        { field: "profile.email", title: "email", headerClass: "capitalize" },
         {
           field: "telefone",
           title: this.$t("phone"),
-          headerClass: "capitalize",
-        },
-        {
-          field: "documento",
-          title: this.$t("docs"),
           headerClass: "capitalize",
         },
         { field: "status", title: "status", headerClass: "capitalize" },
