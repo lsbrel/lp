@@ -40,6 +40,12 @@
     "docs": "documento",
     "show-more": "ver más",
     "profile": "perfil",
+    "total-sell": "cantidad de ventas",
+    "total-active-events": "eventos activos",
+    "total-stores": "tiendas totales",
+    "total-active-routes": "rutas activas",
+    "total-active-salesman": "vendedores activos",
+    "loading": "cargando",
 
     "enter": "ingresar",
     "market": "mercado en línea",

@@ -40,6 +40,12 @@
   "docs": "documento",
   "show-more": "ver mais",
   "profile": "perfil",
+  "total-sell": "total de vendas",
+  "total-active-events": "eventos ativos",
+  "total-stores": "total de lojas",
+  "total-active-routes": "rotas ativas",
+  "total-active-salesman": "vendedores ativos",
+  "loading": "carregando",
 
 
   "enter": "entrar",

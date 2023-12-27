@@ -1,15 +1,39 @@
 <script>
 import LeafletMap from "@/components/LeafletMap.vue";
+import totalData from "@components/dashboard/totalData.vue";
 
 export default {
   components: {
     LeafletMap,
+    totalData,
   },
   data() {
-    return {};
+    return {
+      dashboardData: {
+        totalVendas: 0,
+        totalEvents: 0,
+        totalStores: 0,
+        totalSellers: 0,
+        totalRoutes: 0,
+      },
+    };
   },
-  methods: {},
-  mounted() {},
+  methods: {
+    async getDashboardData() {
+      this.dashboardData = {
+        totalVendas: 1088,
+        totalEvents: 10,
+        totalStores: 122,
+        totalSellers: 5,
+        totalRoutes: 6,
+      };
+    },
+  },
+  created() {
+    setTimeout(() => {
+      this.getDashboardData();
+    }, 2000);
+  },
 };
 </script>
 <template>
@@ -19,11 +43,41 @@ export default {
       id="one"
       class="flex flex-row h-2/6 gap-2 mb-3 [&>*]:shadow-lg [&>*]:bg-kwhite"
     >
-      <div class="w-4/12 border-1 rounded-md">total de vendas</div>
-      <div class="w-2/12 border-1 rounded-md">numero de eventos ativos</div>
-      <div class="w-2/12 border-1 rounded-md">numero de lojas</div>
-      <div class="w-2/12 border-1 rounded-md">numero de rotas ativas</div>
-      <div class="w-2/12 border-1 rounded-md">numero de vendedores ativos</div>
+      <div class="w-4/12 border-1 rounded-md p-2">
+        <totalData
+          title="total-sell"
+          :data="[dashboardData.totalVendas]"
+          color="#4361ee"
+        />
+      </div>
+      <div class="w-2/12 border-1 rounded-md">
+        <totalData
+          title="total-active-events"
+          :data="[dashboardData.totalEvents]"
+          color="#ff0000"
+        />
+      </div>
+      <div class="w-2/12 border-1 rounded-md">
+        <totalData
+          title="total-stores"
+          :data="[dashboardData.totalStores]"
+          color="#00ab55"
+        />
+      </div>
+      <div class="w-2/12 border-1 rounded-md">
+        <totalData
+          title="total-active-routes"
+          :data="[dashboardData.totalRoutes]"
+          color="#4361ee"
+        />
+      </div>
+      <div class="w-2/12 border-1 rounded-md">
+        <totalData
+          title="total-active-salesman"
+          :data="[dashboardData.totalSellers]"
+          color="#4361ee"
+        />
+      </div>
     </div>
     <!-- 1 -->
 
@@ -44,9 +98,3 @@ export default {
     <!-- 3 -->
   </div>
 </template>
-<style>
-#one div:hover {
-  transform: scale(1.01);
-  transition: all 0.2s ease-out;
-}
-</style>

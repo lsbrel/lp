@@ -40,6 +40,12 @@
     "docs": "document",
     "show-more": "show more",
     "profile": "profile",
+    "total-sell": "sales amount",
+    "total-active-events": "active events",
+    "total-stores": "total stores",
+    "total-active-routes": "active routes",
+    "total-active-salesman": "active sellers",
+    "loading": "loading",
 
     "enter": "enter",
     "market": "online market",
