@@ -15,7 +15,8 @@
     "plotly.js-dist-min": "^2.27.1",
     "sweetalert2": "^11.10.1",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vue3-apexcharts": "^1.4.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.4.0",
