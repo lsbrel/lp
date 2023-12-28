@@ -12,8 +12,10 @@ export default class Translate {
         return pt[key];
       } else if (lang == "es") {
         return es[key];
-      } else {
+      } else if (lang == "en") {
         return en[key];
+      } else {
+        return key;
       }
     } catch {
       console.error("Erro ao buscar tradução");
