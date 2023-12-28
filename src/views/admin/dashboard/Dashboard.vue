@@ -1,11 +1,13 @@
 <script>
 import LeafletMap from "@/components/LeafletMap.vue";
 import totalData from "@components/dashboard/totalData.vue";
+import RelatorioVendas from "./_RelatorioVendas.vue";
 
 export default {
   components: {
     LeafletMap,
     totalData,
+    RelatorioVendas,
   },
   data() {
     return {
@@ -30,6 +32,7 @@ export default {
     },
   },
   created() {
+    // So para mostrar a dinamica
     setTimeout(() => {
       this.getDashboardData();
     }, 2000);
@@ -90,9 +93,8 @@ export default {
 
     <!-- 3 -->
     <div class="flex flex-row h-5/6 gap-2 mb-4 [&>*]:shadow-lg [&>*]:bg-kwhite">
-      <div class="w-full border-1 rounded-md">
-        Seletor de relatorio/lista/tabela de vendas
-        <!-- Exemplo cidades/rotas/vendedores com mais vendas -->
+      <div id="vendas" class="w-full border-1 rounded-md">
+        <RelatorioVendas />
       </div>
     </div>
     <!-- 3 -->

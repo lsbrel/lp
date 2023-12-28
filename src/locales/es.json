@@ -46,6 +46,14 @@
     "total-active-routes": "rutas activas",
     "total-active-salesman": "vendedores activos",
     "loading": "cargando",
+    "origin": "origen",
+    "store": "tienda",
+    "date": "data",
+    "product-sended": "producto enviado",
+    "purchase-received": "compra recibida",
+    "payment-received": "pago recibido",
+
+
 
     "enter": "ingresar",
     "market": "mercado en línea",
