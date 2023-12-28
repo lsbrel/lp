@@ -10,9 +10,6 @@ export default {
   components: {
     VueApexCharts,
   },
-  created() {
-    console.log(this.data);
-  },
   computed: {
     titleComputed() {
       return this.$t(this.title);
