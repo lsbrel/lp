@@ -29,9 +29,7 @@ export default {
     <HeaderTitle v-if="store.getLayout == 'control'" :label="$route.name" />
     <ViewLoading v-if="store.loading" />
     <RouterView v-else v-slot="{ Component }">
-      <Transition>
-        <component :is="Component" />
-      </Transition>
+      <component :is="Component" />
     </RouterView>
   </div>
 </template>
