@@ -12,62 +12,8 @@ const router = createRouter({
       component: () => import("@landing/home/Index.vue"),
       meta: { layout: "page" },
     },
-    {
-      path: "/login",
-      name: "login",
-      component: () => import("@landing/login/Index.vue"),
-      meta: { layout: "page" },
-    },
     /** PAGINAS */
 
-    /** DASHBOARD */
-    {
-      path: "/dashboard",
-      name: "dashboard",
-      component: () => import("@admin/dashboard/Dashboard.vue"),
-    },
-    {
-      path: "/salesmans",
-      name: "salesmans",
-      component: () => import("@admin/salesman/Salesmans.vue"),
-    },
-    {
-      path: "/stores",
-      name: "stores",
-      component: () => import("@admin/stores/Stores.vue"),
-    },
-    {
-      path: "/events",
-      name: "events",
-      component: () => import("@admin/events/Events.vue"),
-    },
-    {
-      path: "/routes",
-      name: "routes",
-      component: () => import("@admin/routes/Routes.vue"),
-    },
-    {
-      path: "/cities",
-      name: "cities",
-      component: () => import("@admin/cities/Cities.vue"),
-    },
-    /** DASHBOARD */
-
-    /** DETAIL ROUTES */
-    {
-      path: "/profile/:type/:id",
-      name: "profile",
-      component: () => import("@admin/profile/Profile.vue"),
-    },
-    /** DETAIL ROUTES */
-
-    /** ROTAS QUE NÂO FORAM ENCOTNRADAS */
-    {
-      path: "/page-not-found",
-      name: "pagenotfound",
-      component: () => import("@error/PageNotFound.vue"),
-      meta: { layout: "page" },
-    },
     // {
     //   path: "/:pathMatch(.*)*",
     //   name: "notfound",
